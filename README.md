@@ -12,6 +12,10 @@
 Keycap Generator v66で導入された「📦 内蔵アイコン (Stock Icons)」機能を拡張するための補助ツールを公開しました。
 このツールを使用すると、誰でも簡単にアイコンライブラリ（`icons.json`）を編集・拡張し、自分好みのSVGアイコンセットをKeycap Generatorに追加できます。
 
+### ⚠️ 注意点 (Important Notes)
+* **オンライン版を利用の方へ:** Web版の Keycap Generator をそのまま利用している場合、**このツールは不要です。** オンライン版には標準のアイコンセットが既に組み込まれています。
+* **ローカル版のカスタム用:** このツールは、Keycap GeneratorのHTMLファイルをダウンロードして**ローカル環境（オフライン）**で実行し、独自のSVGアイコンを追加・カスタマイズしたいユーザー向けです。
+
 ### 🎯 開発の背景
 Keycap Generator v66では、よく使うアイコン（矢印、メディアキーなど）をプリセットとして選択できる「内蔵アイコン機能」が搭載されました。
 この機能は、拡張性を高めるためにSVGファイルと識別用JSONファイル（`icons.json`）で構成されていますが、手動でJSONを編集するのは手間がかかり、記述ミスの原因にもなります。
@@ -38,6 +42,10 @@ Keycap Generator v66では、よく使うアイコン（矢印、メディアキ
 
 We have released a helper tool to expand the "📦 Stock Icons" feature introduced in Keycap Generator v66.
 This tool allows anyone to easily edit and expand the icon library (`icons.json`) and add their own custom SVG icon sets to Keycap Generator.
+
+### ⚠️ Important Notes
+* **For Online Users:** You do **not** need this tool if you are simply using the online version of Keycap Generator. The online version already includes the standard icon set.
+* **For Local Customization:** This tool is specifically designed for users who download the HTML to run in a **local environment** and wish to manually customize or expand the icon library.
 
 ### 🎯 Background
 Keycap Generator v66 introduced the "Stock Icons" feature, allowing users to select common icons (arrows, media keys, etc.) as presets.
